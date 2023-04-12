@@ -1,0 +1,98 @@
+
+#all-offers {
+    margin:auto;
+    text-align: center;
+    margin-top: 8vh;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px #ff0000;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+/* h1#allOffers {
+    padding-top: 40px;
+    display: inline-grid;
+}
+
+.all */
+
+#all-offers>h1 {
+    color: #fff;
+    font-family: "Agency FB";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.allOffers{
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #ff0000;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    margin: 10px;
+
+}
+
+.allOffers-card>img {
+    border-radius: 50%;
+    height: 100px;
+    position: relative;
+    top: 15px;
+    left: 8px;
+    float: right;
+    width: 100px;
+
+}
+
+#card-info {
+    margin:20px;
+    overflow: hidden;
+}
+
+#card-info>h6 {
+
+    font-size: 20px;
+    font-weight: 750;
+    color: #161618;
+}
+
+#card-info>h2 {
+    font-size: 30px;
+    font-weight: 750;
+    color: #161618;
+}
+
+#card-info>h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #161618;
+    display: block;
+}
+
+
+.button {
+    margin-top: 25px;
+    background-color: #470000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    bottom: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: #470000;
+    transform: scale(1.10);
+}
