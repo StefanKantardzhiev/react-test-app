@@ -1,0 +1,50 @@
+body {
+    display: block;
+    margin: 0;
+    background-color: black;
+    min-width: 670px;
+}
+
+#main-content{
+    margin-top: 5%;
+    color:white;
+}
+
+header{
+    width:100%;
+    top: 0;
+    padding: 20px;
+    background-color: black;
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
+
+
+/* footer {
+    padding: 0.5em;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+nav a:hover {
+    cursor: grabbing;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+#user,
+#guest {
+    margin: 0;
+    padding: 0;
+}
